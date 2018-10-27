@@ -1,0 +1,13 @@
+export const SIZE = 10;
+export const SIZE_LARGE = SIZE * 2;
+export const SIZE_EXTRA_LARGE = SIZE_LARGE * 2;
+export const RADIUS = SIZE / 2;
+export const RADIUS_LARGE = RADIUS * 2;
+export const RADIUS_EXTRA_LARGE = RADIUS_LARGE * 2;
+export const COLOR_PRIMARY = '#222';
+export const BACKGROUND_COLOR = 'white';
+export const FONT_SIZE_SMALL = 10;
+export const FONT_SIZE_NORMAL = 12;
+export const FONT_SIZE_LARGE = 16;
+export const FONT_SIZE_EXTRA_LARGE = 20;
+export const COLOR_GRAY = '#888';

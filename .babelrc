@@ -1,0 +1,22 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    "@babel/plugin-transform-flow-strip-types",
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src/"],
+        "extensions": [".jsx", ".js", ".ios.js", ".android.js"],
+        "alias": {
+          "images": "./assets/images"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "plugins": ["transform-remove-console"]
+    }
+  }
+}
